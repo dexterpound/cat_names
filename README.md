@@ -14,12 +14,13 @@ print('The cat names are:')
 
 for i in range(len(catNames)):
     
-    #print(f"{catNames[i]} {str(i)}")
     
+    print(catNames[i], " : ", str(i))
     #print(catNames[i] + " " + str(i))
-    print(str(i),":",catNames[i])
+    #print(str(i),":",catNames[i])
     #print(catNames[i], " : ", str(i))
     #print(catNames[i], i, end=' ')
     #print(catNames[i],end=' ' + str(i))
-    #print(i)
+    #print(catNames[i], i)
+    #print(f"{catNames[i]} {str(i)}")
 ````
