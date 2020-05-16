@@ -1,7 +1,3 @@
-# cat_names
-Python program that makes a list of cat names and then adds the index number to them.
-
-```
 catNames = []
 while True:
     print('Enter the name of cat ' + str(len(catNames) + 1) +
@@ -15,25 +11,7 @@ print('The cat names are:')
     #print(name)
 
 for i in range(len(catNames)):
-    print(catNames[i])
-    print(i)
-
-
-#catNames = ['a', 'b', 'c', 'd']
-#             0    1    2    3
-#for i in range(len(catNames)):  i will go from 0, 1, 2, 3
-    #print(i) i is the index
-    #print(catNames[i]) catNames[i] is the element at index i
-
-# the output will be:
-#0
-#'a'
-#1
-#'b'
-#2
-#'c'
-#3
-#'d'
-
-```
-Still needs to add index after the name and not on the next line.
+    print(str(i),":",catNames[i])# this is the fix I was after 
+    #print(catNames[i], i, end=' ') 
+    #print(catNames[i],end=' ' + str(i))
+    #print(i)
