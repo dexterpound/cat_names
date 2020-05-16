@@ -1,3 +1,5 @@
+
+````
 catNames = []
 while True:
     print('Enter the name of cat ' + str(len(catNames) + 1) +
@@ -15,3 +17,4 @@ for i in range(len(catNames)):
     #print(catNames[i], i, end=' ') 
     #print(catNames[i],end=' ' + str(i))
     #print(i)
+````
