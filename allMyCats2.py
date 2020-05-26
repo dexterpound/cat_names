@@ -12,3 +12,4 @@ print('The cat names are:')
 
 for i in range(len(catNames)):
     print(catNames[i] + " " + str(i))
+    
